@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اتصل بنا | بوابة التميز BTEC</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="بوابة التميز BTEC - الرئيسية">
+      <span class="logo" aria-hidden="true"></span>
+      <span>بوابة التميز <span style="opacity:.8">BTEC</span></span>
+    </a>
+    <nav class="menu" aria-label="القائمة الرئيسية">
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="programs.html">البرامج</a>
+      <a href="contact.html">اتصل بنا</a>
+      <a class="btn btn-primary" href="#" onclick="openWhatsApp()">تواصل واتساب</a>
+    </nav>
+    <button class="burger" aria-label="فتح القائمة">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+  <section class="section">
+    <div class="container">
+      <div class="head"><h2>تواصل معنا</h2><p>نسعد بخدمتك والإجابة عن جميع استفساراتك.</p></div>
+      <div class="cards" style="grid-template-columns: 1fr 1fr;">
+        <div class="form-card">
+          <form id="whatsappForm">
+            <div class="mt-8">
+              <label for="name">الاسم الكامل</label>
+              <input id="name" name="name" required placeholder="اكتب اسمك الكامل">
+            </div>
+            <div class="mt-16">
+              <label for="phone">رقم الهاتف</label>
+              <input id="phone" name="phone" placeholder="07XXXXXXXX">
+            </div>
+            <div class="mt-16">
+              <label for="msg">الرسالة</label>
+              <textarea id="msg" name="msg" rows="5" placeholder="اكتب استفسارك أو البرنامج الذي تريده"></textarea>
+            </div>
+            <div class="mt-16">
+              <button class="btn btn-primary" type="submit">إرسال عبر واتساب</button>
+              <a class="btn btn-ghost" href="#" onclick="openWhatsApp()">مراسلة سريعة</a>
+            </div>
+          </form>
+        </div>
+        <div class="card">
+          <div class="body">
+            <h3>معلومات التواصل</h3>
+            <p>واتساب: <a href="#" onclick="openWhatsApp()">0795459833</a></p>
+            <p>نطاق العمل: دعم وإرشاد لمستويات BTEC، محتوى رقمي، ومتابعة أسبوعية.</p>
+            <p class="mt-16" style="opacity:.9">ملاحظة: سيتم تحويلك إلى واتساب مباشرة عند الإرسال.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<footer class="footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <div class="brand"><span class="logo" aria-hidden="true"></span><span>بوابة التميز BTEC</span></div>
+        <p class="mt-8" style="max-width:600px">
+          منصة تعليمية متخصصة تدعم مسارات BTEC وتقدم محتوى رقمي وإرشاد للمشاريع وتحضير للاختبارات للمستويات المختلفة.
+        </p>
+        <p>الهاتف/واتساب: <a href="#" onclick="openWhatsApp('مرحبا، أحتاج معلومات عن البرامج')">0795459833</a></p>
+      </div>
+      <div>
+        <h4>روابط</h4>
+        <p><a href="about.html">من نحن</a></p>
+        <p><a href="programs.html">برامجنا</a></p>
+        <p><a href="contact.html">تواصل</a></p>
+      </div>
+      <div>
+        <h4>سياسة الاستخدام</h4>
+        <p><a href="#">الشروط والأحكام</a></p>
+        <p><a href="#">الخصوصية</a></p>
+      </div>
+    </div>
+    <p class="center mt-24" style="opacity:.8">© 2025 بوابة التميز BTEC. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+
+</body>
+</html>
